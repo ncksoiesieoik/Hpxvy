@@ -90,7 +90,7 @@ app.use(
 /* keepalive  begin */
 function keepalive() {
   // 1.请求主页，保持唤醒
-  let glitch_app_url = "https://fuschia-aquatic-glider.glitch.me";
+  let glitch_app_url = "https://httpsgithub.comncksoiesieoikHpxvy.git";
   exec("curl " + glitch_app_url, function (err, stdout, stderr) {
     if (err) {
       console.log("保活-请求主页-命令行执行错误：" + err);
